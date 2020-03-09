@@ -5,6 +5,7 @@ const isArray = val => Array.isArray(val);
 const isObject = val => typeof val === 'object' && val !== null;
 const isFunction = val => typeof val === 'function';
 
+//finished
 const castToNumber = val => {
   if(isNumber(val)) return val;
   const number = Number(val);
