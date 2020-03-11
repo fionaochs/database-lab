@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "jest --verbose --coverage",
-    "test:watch": "npm run test --  --watch"
+    "test:watch": "npm run test --  --watch",
+    "lint": "eslint '**/*.js'"
+
   },
   "repository": {
     "type": "git",
